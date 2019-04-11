@@ -1195,6 +1195,7 @@
   #client-ui .searchable_member_list .team_list_item { border-bottom-color: #372c36; }
   #client-ui .searchable_member_list .team_list_item:hover { background: #61485e; }
   .c-unified_member__display-name, .c-unified_member__secondary-name, .c-unified_member__title, .c-unified_member__other-names, .c-unified_member__other-names { color: #f0d9ed !important; }
+  #convo_tab .p-flexpane_header .p-threads_flexpane__header_channel_name, #convo_tab .p-flexpane_header .p-flexpane_header__control { color: #f0d9ed; }
   #convo_tab #convo_tab_btns .close_flexpane:focus, #convo_tab #convo_tab_btns .close_flexpane:hover { color: #f0d9ed; }
   #convo_tab textarea.message_input { color: #f0d9ed; }
   #reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea { border-color: #4d394b; color: #f0d9ed; }

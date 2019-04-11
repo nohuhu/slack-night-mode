@@ -1,3 +1,10 @@
+#convo_tab .p-flexpane_header {
+  .p-threads_flexpane__header_channel_name,
+  .p-flexpane_header__control {
+    color: $base-font-color;
+  }
+}
+
 #convo_tab #convo_tab_btns .close_flexpane {
   &:focus,
   &:hover {

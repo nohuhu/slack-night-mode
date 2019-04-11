@@ -2385,6 +2385,8 @@ span.match { background: rgba(220, 50, 47, 0.25); }
 
 .c-unified_member__display-name, .c-unified_member__secondary-name, .c-unified_member__title, .c-unified_member__other-names, .c-unified_member__other-names { color: #a1adad !important; }
 
+#convo_tab .p-flexpane_header .p-threads_flexpane__header_channel_name, #convo_tab .p-flexpane_header .p-flexpane_header__control { color: #a1adad; }
+
 #convo_tab #convo_tab_btns .close_flexpane:focus, #convo_tab #convo_tab_btns .close_flexpane:hover { color: #a1adad; }
 
 #convo_tab textarea.message_input { color: #a1adad; }
