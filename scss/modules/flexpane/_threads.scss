@@ -2,13 +2,21 @@
   .p-threads_flexpane__header_channel_name,
   .p-flexpane_header__control {
     color: $base-font-color;
+
+    &:focus,
+    &:hover {
+      color: $base-font-color;
+    }
   }
 }
 
-#convo_tab #convo_tab_btns .close_flexpane {
-  &:focus,
-  &:hover {
-    color: $base-font-color;
+#convo_tab .p-threads_flexpane {
+  .c-virtual_list {
+    .c-virtual_list__item {
+      .c-message_kit__labels__label {
+        color: $base-font-color;
+      }
+    }
   }
 }
 

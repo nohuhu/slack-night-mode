@@ -1194,7 +1194,8 @@
   #client-ui .searchable_member_list .team_list_item:hover { background: #282828; }
   .c-unified_member__display-name, .c-unified_member__secondary-name, .c-unified_member__title, .c-unified_member__other-names, .c-unified_member__other-names { color: #00b9f2 !important; }
   #convo_tab .p-flexpane_header .p-threads_flexpane__header_channel_name, #convo_tab .p-flexpane_header .p-flexpane_header__control { color: #00b9f2; }
-  #convo_tab #convo_tab_btns .close_flexpane:focus, #convo_tab #convo_tab_btns .close_flexpane:hover { color: #00b9f2; }
+  #convo_tab .p-flexpane_header .p-threads_flexpane__header_channel_name:focus, #convo_tab .p-flexpane_header .p-threads_flexpane__header_channel_name:hover, #convo_tab .p-flexpane_header .p-flexpane_header__control:focus, #convo_tab .p-flexpane_header .p-flexpane_header__control:hover { color: #00b9f2; }
+  #convo_tab .p-threads_flexpane .c-virtual_list .c-virtual_list__item .c-message_kit__labels__label { color: #00b9f2; }
   #convo_tab textarea.message_input { color: #00b9f2; }
   #reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea { border-color: #181818; color: #00b9f2; }
   #reply_container .inline_message_input_container .message_input div:active, #reply_container .inline_message_input_container .message_input div:focus, #reply_container .inline_message_input_container textarea:active, #reply_container .inline_message_input_container textarea:focus, .reply_input_container .inline_message_input_container .message_input div:active, .reply_input_container .inline_message_input_container .message_input div:focus, .reply_input_container .inline_message_input_container textarea:active, .reply_input_container .inline_message_input_container textarea:focus { border-color: #101010; }

@@ -2387,7 +2387,9 @@ span.match { background: rgba(220, 50, 47, 0.25); }
 
 #convo_tab .p-flexpane_header .p-threads_flexpane__header_channel_name, #convo_tab .p-flexpane_header .p-flexpane_header__control { color: #586e75; }
 
-#convo_tab #convo_tab_btns .close_flexpane:focus, #convo_tab #convo_tab_btns .close_flexpane:hover { color: #586e75; }
+#convo_tab .p-flexpane_header .p-threads_flexpane__header_channel_name:focus, #convo_tab .p-flexpane_header .p-threads_flexpane__header_channel_name:hover, #convo_tab .p-flexpane_header .p-flexpane_header__control:focus, #convo_tab .p-flexpane_header .p-flexpane_header__control:hover { color: #586e75; }
+
+#convo_tab .p-threads_flexpane .c-virtual_list .c-virtual_list__item .c-message_kit__labels__label { color: #586e75; }
 
 #convo_tab textarea.message_input { color: #586e75; }
 
