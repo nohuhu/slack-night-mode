@@ -1,4 +1,4 @@
-#threads_msgs_scroller_div {
+#p_thread_view_container .p-threads_view {
   background: $color-base;
 
   &:not(.loading)::before {
@@ -24,6 +24,26 @@
     background: none;
 
     &::before {
+      color: $base-font-color;
+    }
+  }
+
+  .c-virtual_list .c-virtual_list__item {
+    .p-threads_view_header {
+      .p-threads_view_header__permalink {
+        color: $base-link-color !important;
+
+        &:focus, &:hover, &:visited {
+          color: $base-link-color !important;
+        }
+
+        .c-channel_name {
+          color: inherit;
+        }
+      }
+    }
+
+    .p-thread_participant_list {
       color: $base-font-color;
     }
   }

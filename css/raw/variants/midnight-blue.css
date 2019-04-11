@@ -1617,19 +1617,27 @@ body > pre { background: #303030; }
 
 .special_formatting_quote .quote_bar { background-color: #282828; }
 
-#threads_msgs_scroller_div { background: #000; }
+#p_thread_view_container .p-threads_view { background: #000; }
 
-#threads_msgs_scroller_div:not(.loading)::before { background: #000; }
+#p_thread_view_container .p-threads_view:not(.loading)::before { background: #000; }
 
-#threads_msgs_scroller_div.loading::before { color: #1793d1; }
+#p_thread_view_container .p-threads_view.loading::before { color: #1793d1; }
 
-#threads_msgs_scroller_div .threads_caught_up_divider .divider_line { border-top: 1px solid #181818; }
+#p_thread_view_container .p-threads_view .threads_caught_up_divider .divider_line { border-top: 1px solid #181818; }
 
-#threads_msgs_scroller_div .threads_caught_up_divider .divider_label { background: #282828; color: #00b9f2; }
+#p_thread_view_container .p-threads_view .threads_caught_up_divider .divider_label { background: #282828; color: #00b9f2; }
 
-#threads_msgs_scroller_div.loading { background: none; }
+#p_thread_view_container .p-threads_view.loading { background: none; }
 
-#threads_msgs_scroller_div.loading::before { color: #00b9f2; }
+#p_thread_view_container .p-threads_view.loading::before { color: #00b9f2; }
+
+#p_thread_view_container .p-threads_view .c-virtual_list .c-virtual_list__item .p-threads_view_header .p-threads_view_header__permalink { color: #1793d1 !important; }
+
+#p_thread_view_container .p-threads_view .c-virtual_list .c-virtual_list__item .p-threads_view_header .p-threads_view_header__permalink:focus, #p_thread_view_container .p-threads_view .c-virtual_list .c-virtual_list__item .p-threads_view_header .p-threads_view_header__permalink:hover, #p_thread_view_container .p-threads_view .c-virtual_list .c-virtual_list__item .p-threads_view_header .p-threads_view_header__permalink:visited { color: #1793d1 !important; }
+
+#p_thread_view_container .p-threads_view .c-virtual_list .c-virtual_list__item .p-threads_view_header .p-threads_view_header__permalink .c-channel_name { color: inherit; }
+
+#p_thread_view_container .p-threads_view .c-virtual_list .c-virtual_list__item .p-thread_participant_list { color: #00b9f2; }
 
 #threads_view_banner.messages_banner { background: #181818; }
 
