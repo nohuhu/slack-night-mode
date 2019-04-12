@@ -1272,13 +1272,14 @@
   .current_status_emoji_picker { border-right-color: #00232c; }
   .current_status_input_for_team_menu .current_status_presets { border-top: 1px solid #00171d; }
   .current_status_input_for_team_menu .current_status_presets .current_status_presets_section_header .header_label { color: #2aa198; }
-  .rxn, .c-reaction, .c-reaction_add, .c-member_slug { background: #00232c; border: 1px solid #003340; }
+  .rxn, .c-reaction, .c-reaction_add, .c-member_slug { background: #00232c; border: 1px solid #003340; color: #a1adad; }
   .rxn.active, .rxn:hover, .c-reaction.active, .c-reaction:hover, .c-reaction_add.active, .c-reaction_add:hover, .c-member_slug.active, .c-member_slug:hover { background: #002b36; }
   .rxn.active .emoji_rxn_count, .rxn:hover .emoji_rxn_count, .c-reaction.active .emoji_rxn_count, .c-reaction:hover .emoji_rxn_count, .c-reaction_add.active .emoji_rxn_count, .c-reaction_add:hover .emoji_rxn_count, .c-member_slug.active .emoji_rxn_count, .c-member_slug:hover .emoji_rxn_count { color: #a1adad; }
   .rxn.c-reaction--reacted, .c-reaction.c-reaction--reacted, .c-reaction_add.c-reaction--reacted, .c-member_slug.c-reaction--reacted { background-color: rgba(0, 43, 54, 0.08); border-color: rgba(0, 63, 80, 0.4) !important; }
   .rxn.c-reaction--reacted .emoji_rxn_count, .rxn.c-reaction--reacted .c-reaction__count, .c-reaction.c-reaction--reacted .emoji_rxn_count, .c-reaction.c-reaction--reacted .c-reaction__count, .c-reaction_add.c-reaction--reacted .emoji_rxn_count, .c-reaction_add.c-reaction--reacted .c-reaction__count, .c-member_slug.c-reaction--reacted .emoji_rxn_count, .c-member_slug.c-reaction--reacted .c-reaction__count { color: #a1adad; }
   .rxn .emoji_rxn_count, .rxn .c-reaction__count, .c-reaction .emoji_rxn_count, .c-reaction .c-reaction__count, .c-reaction_add .emoji_rxn_count, .c-reaction_add .c-reaction__count, .c-member_slug .emoji_rxn_count, .c-member_slug .c-reaction__count { color: #a1adad; }
   .rxn.menu_rxn .ts_icon, .c-reaction.menu_rxn .ts_icon, .c-reaction_add.menu_rxn .ts_icon, .c-member_slug.menu_rxn .ts_icon { color: rgba(161, 173, 173, 0.25); }
+  .rxn .c-reaction_add__icon--fg, .c-reaction .c-reaction_add__icon--fg, .c-reaction_add .c-reaction_add__icon--fg, .c-member_slug .c-reaction_add__icon--fg { color: #268bd2; }
   a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #b58900; color: #00232c; }
   .modal { background-color: #002b36; border: 0; box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
   .modal .close, .modal label { color: #a1adad; }

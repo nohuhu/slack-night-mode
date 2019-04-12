@@ -2543,7 +2543,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #282828; box-shad
 
 .current_status_input_for_team_menu .current_status_presets .current_status_presets_section_header .header_label { color: #1793d1; }
 
-.rxn, .c-reaction, .c-reaction_add, .c-member_slug { background: #181818; border: 1px solid #282828; }
+.rxn, .c-reaction, .c-reaction_add, .c-member_slug { background: #181818; border: 1px solid #282828; color: #00b9f2; }
 
 .rxn.active, .rxn:hover, .c-reaction.active, .c-reaction:hover, .c-reaction_add.active, .c-reaction_add:hover, .c-member_slug.active, .c-member_slug:hover { background: #202020; }
 
@@ -2556,6 +2556,8 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #282828; box-shad
 .rxn .emoji_rxn_count, .rxn .c-reaction__count, .c-reaction .emoji_rxn_count, .c-reaction .c-reaction__count, .c-reaction_add .emoji_rxn_count, .c-reaction_add .c-reaction__count, .c-member_slug .emoji_rxn_count, .c-member_slug .c-reaction__count { color: #00b9f2; }
 
 .rxn.menu_rxn .ts_icon, .c-reaction.menu_rxn .ts_icon, .c-reaction_add.menu_rxn .ts_icon, .c-member_slug.menu_rxn .ts_icon { color: rgba(0, 185, 242, 0.25); }
+
+.rxn .c-reaction_add__icon--fg, .c-reaction .c-reaction_add__icon--fg, .c-reaction_add .c-reaction_add__icon--fg, .c-member_slug .c-reaction_add__icon--fg { color: #1793d1; }
 
 a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #fff6d1; color: #181818; }
 

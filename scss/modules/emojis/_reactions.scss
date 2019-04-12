@@ -4,6 +4,7 @@
 .c-member_slug {
   background: $color-shade-dark;
   border: 1px solid $color-shade-light;
+  color: $base-font-color;
 
   &.active,
   &:hover {
@@ -31,6 +32,10 @@
 
   &.menu_rxn .ts_icon {
     color: rgba($base-font-color, 0.25);
+  }
+
+  .c-reaction_add__icon--fg {
+    color: $base-link-color;
   }
 }
 
