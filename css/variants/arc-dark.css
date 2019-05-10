@@ -589,6 +589,7 @@
     100% { background: transparent; } }
   @keyframes border_focus_animation { 0% { box-shadow: 0 0 4px 0.25px #6b6f79, 0 0 0 0.5px #858991; }
     100% { box-shadow: 0 0 4px 0 #6b6f79, 0 0 0 0 #858991; } }
+  .p-threads_view { background-color: #404552; }
   .c-message_attachment { color: #d3dae3; }
   .c-message_attachment__border { background-color: #6b6f79; }
   .c-message_attachment__delete { color: #90939b; }
@@ -809,7 +810,6 @@
   #page pre, body > pre { background: #1d2027; color: #d3dae3 !important; }
   body > pre { background: #858991; }
   .special_formatting_quote .quote_bar { background-color: #6b6f79; }
-  #p_thread_view_container .p-threads_view { background: #404552; }
   #p_thread_view_container .p-threads_view:not(.loading)::before { background: #404552; }
   #p_thread_view_container .p-threads_view.loading::before { color: #949494; }
   #p_thread_view_container .p-threads_view .threads_caught_up_divider .divider_line { border-top: 1px solid #2a2f39; }

@@ -1,6 +1,4 @@
 #p_thread_view_container .p-threads_view {
-  background: $color-base;
-
   &:not(.loading)::before {
     background: $color-base;
   }
