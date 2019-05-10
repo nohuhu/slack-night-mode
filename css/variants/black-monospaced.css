@@ -812,6 +812,7 @@
   #page pre, body > pre { background: #000; color: #e6e6e6 !important; }
   body > pre { background: #828282; }
   .special_formatting_quote .quote_bar { background-color: #545454; }
+  #p_thread_view_container .p-threads_view .p-threads_view__default_background { background-color: #222; }
   #p_thread_view_container .p-threads_view:not(.loading)::before { background: #222; }
   #p_thread_view_container .p-threads_view.loading::before { color: #949494; }
   #p_thread_view_container .p-threads_view .threads_caught_up_divider .divider_line { border-top: 1px solid #363636; }

@@ -810,6 +810,7 @@
   #page pre, body > pre { background: #101010; color: #00b9f2 !important; }
   body > pre { background: #303030; }
   .special_formatting_quote .quote_bar { background-color: #282828; }
+  #p_thread_view_container .p-threads_view .p-threads_view__default_background { background-color: #000; }
   #p_thread_view_container .p-threads_view:not(.loading)::before { background: #000; }
   #p_thread_view_container .p-threads_view.loading::before { color: #1793d1; }
   #p_thread_view_container .p-threads_view .threads_caught_up_divider .divider_line { border-top: 1px solid #181818; }

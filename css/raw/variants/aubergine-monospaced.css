@@ -1623,6 +1623,8 @@ body > pre { background: #876484; }
 
 .special_formatting_quote .quote_bar { background-color: #61485e; }
 
+#p_thread_view_container .p-threads_view .p-threads_view__default_background { background-color: #3e313c; }
+
 #p_thread_view_container .p-threads_view:not(.loading)::before { background: #3e313c; }
 
 #p_thread_view_container .p-threads_view.loading::before { color: #a3839f; }

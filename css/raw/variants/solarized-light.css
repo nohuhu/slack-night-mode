@@ -1619,6 +1619,8 @@ body > pre { background: #fffefb; }
 
 .special_formatting_quote .quote_bar { background-color: #fef9ed; }
 
+#p_thread_view_container .p-threads_view .p-threads_view__default_background { background-color: #fdf6e3; }
+
 #p_thread_view_container .p-threads_view:not(.loading)::before { background: #fdf6e3; }
 
 #p_thread_view_container .p-threads_view.loading::before { color: #2aa198; }
